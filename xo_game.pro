@@ -715,29 +715,52 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>260</y>
+      <y>230</y>
       <width>111</width>
-      <height>41</height>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
      <string>СБРОС</string>
     </property>
    </widget>
+   <widget class="QLabel" name="l_win">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Рандом</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>490</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QPushButton" name="demoButton">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>320</y>
+      <y>260</y>
       <width>111</width>
-      <height>41</height>
+      <height>24</height>
      </rect>
     </property>
     <property name="autoFillBackground">
      <bool>true</bool>
     </property>
     <property name="text">
-     <string>демонстрация</string>
+     <string>Демо</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
@@ -755,11 +778,24 @@
       <x>30</x>
       <y>200</y>
       <width>111</width>
-      <height>41</height>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
      <string>Игрок 2 первый</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>440</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>9999999</number>
     </property>
    </widget>
   </widget>

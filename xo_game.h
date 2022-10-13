@@ -23,6 +23,8 @@ public:
     int fullTimer;
     long step_m[26];
     long step_ii[26];
+    long vert[5][5];
+    long goriz[26];
     std::string symbol, symbol2;
 
 private slots:
@@ -35,6 +37,7 @@ private slots:
     void ii_run();//Ход компьютера
     void ii2_run();//Ход компьютера2
     void reset();//Сброс игры
+    void ii_button();//Кнопки согласно индексам
 
     void on_rb_5_clicked(bool checked);
 
@@ -78,6 +81,8 @@ private slots:
     void on_pb_23_clicked(bool checked);
     void on_pb_24_clicked(bool checked);
     void on_pb_25_clicked(bool checked);
+
+    void on_goButton_clicked();
 
 
 private:
